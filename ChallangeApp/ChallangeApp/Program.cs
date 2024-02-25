@@ -10,9 +10,10 @@
 
 
 {
-    var number = 99642641844;
+    var number = 4566;
     string numberAsString = number.ToString();
     char[] letters = numberAsString.ToArray();
+    Console.WriteLine("Wyniki dla liczby: " + number);
 
     int counter0 = 0;
     int counter1 = 0;
@@ -69,8 +70,6 @@
         }
 
     }
-
-
 
     Console.WriteLine("0 => " + counter0);
     Console.WriteLine("1 => " + counter1);
